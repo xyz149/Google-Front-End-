@@ -13,7 +13,7 @@ body {
   flex-direction: column;
 }
 
-/* HEADER */
+
 header {
   width: 100%;
   display: flex;
@@ -31,7 +31,7 @@ header {
   gap: 16px;
 }
 
-/* Center all header links and icons vertically */
+
 .header-left a,
 .header-right a,
 .icon-btn {
@@ -48,7 +48,7 @@ header {
   border: none;
 }
 
-/* Remove button border and background for icon buttons */
+
 .icon-btn {
   cursor: pointer;
   padding: 6px;
@@ -69,7 +69,7 @@ header {
   color: #5f6368;
 }
 
-/* MAIN */
+
 main {
   flex: 1;
   display: flex;
@@ -86,7 +86,7 @@ main {
   margin-bottom: 24px;
 }
 
-/* SEARCH BAR & BUTTONS */
+
 .search-form {
   display: flex;
   flex-direction: column;
@@ -127,7 +127,7 @@ main {
   color: #5f6368;
 }
 
-/* WHITE BUTTONS, BLACK TEXT */
+
 .buttons {
   display: flex;
   gap: 10px;
@@ -151,7 +151,6 @@ main {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-/* FOOTER */
 footer {
   background: #f2f2f2;
   width: 100%;
@@ -190,7 +189,7 @@ footer {
   background: #e8eaed;
 }
 
-/* RESPONSIVE MEDIA QUERIES */
+
 @media (max-width: 900px) {
   .footer-links {
     flex-direction: column;
@@ -237,3 +236,4 @@ footer {
     padding: 0 6px;
   }
 }
+
